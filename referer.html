@@ -1,0 +1,6 @@
+<script language="javascript">
+	url = /\?url=(.+)/g.exec(location.href);
+	if (url) {
+		window.location = unescape(decodeURI(url[1]));
+	}
+</script>
